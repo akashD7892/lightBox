@@ -1,0 +1,48 @@
+#vis-pop{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position:fixed;
+    top:0;
+    left:0;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index: 99999;
+    display: none ;
+} 
+ #vis-pop #left_arrow{ 
+    position: absolute;
+    top: 50vh;
+    left: 50px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#vis-pop #right_arrow{ 
+    position: absolute;
+    top: 50vh;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+} 
+#vis-pop #close img{
+    position:absolute;
+    top: 20px;
+    right:20px;
+    width:40px;
+    height:40px;
+    cursor: pointer;
+}
+#vis-pop #mainPopImage{
+    max-width: 200%;
+    max-height: 80vh;
+    margin: 10vh 5vh;
+}
+
+.header{
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
